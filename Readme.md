@@ -15,8 +15,10 @@ Once installed, you can use it in two ways, both based on the `kill` command:
 
 - By directly writing the name of the application, for example:
 
-  $ kill Twitter
-  $ kill Finder
-  $ kill Google Chrome
+    $ kill Twitter
+    $ kill Finder
+    $ kill Google Chrome
 
-- By selecting first the application in Alfred, then pressing the right arrow and then writing `kill` (so that the _Kill Application_ extension is selected).
+- By selecting first the application in Alfred, then pressing the right arrow and then writing `kill` (so that the _Kill Application_ action is selected).
+
+![Action in progress](https://raw.github.com/victorpimentel/KillApplication.alfredextension/master/screenshot.png)
