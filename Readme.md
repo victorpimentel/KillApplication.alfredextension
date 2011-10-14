@@ -11,14 +11,12 @@ To install the extension, you need [Alfred](http://www.alfredapp.com/) and its [
 How to use
 ----------
 
-Once installed, you can use it in two ways, both based on the `kill` command:
+Once installed, you can use it in two ways, first by directly writing `kill` plus the name of the application, for example:
 
-- By directly writing the name of the application, for example:
+    kill Twitter
+    kill Finder
+    kill Google Chrome
 
-    $ kill Twitter
-    $ kill Finder
-    $ kill Google Chrome
-
-- By selecting first the application in Alfred, then pressing the right arrow and then writing `kill` (so that the _Kill Application_ action is selected).
+Or by selecting first the application in Alfred, then pressing the right arrow and then writing `kill` (so that the _Kill Application_ action is selected).
 
 ![Action in progress](https://raw.github.com/victorpimentel/KillApplication.alfredextension/master/screenshot.png)
