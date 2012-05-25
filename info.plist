@@ -7,7 +7,7 @@
 	<key>category</key>
 	<string>SCRIPTS</string>
 	<key>command</key>
-	<string>killall `echo {query} | sed 's/.*\/\(.*\)\.app/\1/'`</string>
+	<string>killall "`echo {query} | sed 's/.*\/\(.*\)\.app/\1/'`"</string>
 	<key>escapequery</key>
 	<true/>
 	<key>escapequerybackquotes</key>
