@@ -7,7 +7,13 @@
 	<key>category</key>
 	<string>SCRIPTS</string>
 	<key>command</key>
-	<string>killall `echo {query} | sed 's/.*\/\(.*\)\.app/\1/'`</string>
+	<string>if [ -e /usr/bin/pkill ]; then
+	pkill -i `echo {query}`
+else
+	killall `echo {query} | sed 's/.*\/\(.*\)\.app/\1/'`
+fi</string>
+	<key>disabled</key>
+	<false/>
 	<key>escapequery</key>
 	<true/>
 	<key>escapequerybackquotes</key>
@@ -25,7 +31,11 @@
 	<key>keyword</key>
 	<string>kill</string>
 	<key>logging</key>
+	<true/>
+	<key>multifileargs</key>
 	<false/>
+	<key>parameter</key>
+	<integer>0</integer>
 	<key>silent</key>
 	<true/>
 	<key>subtitle</key>
